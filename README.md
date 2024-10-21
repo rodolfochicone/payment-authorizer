@@ -45,7 +45,7 @@ A aplicação estará disponível em http://localhost:8080 (ou na porta configur
 
 ## Executando os Testes
 
-Para rodar os testes unitários e de integração:
+Para rodar os testes execute:
 ~~~gradle
 ./gradlew test
 ~~~
