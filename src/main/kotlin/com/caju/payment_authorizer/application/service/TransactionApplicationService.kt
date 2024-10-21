@@ -33,6 +33,7 @@ class TransactionApplicationService(private val authorizationService: Authorizat
                 AuthorizationResponseDTO("00")
             }
             is AuthorizationResult.Declined.InsufficientFunds -> AuthorizationResponseDTO("51")
+            is AuthorizationResult.Declined.PaymentNotMade -> AuthorizationResponseDTO("51")
         }
     }
 }
