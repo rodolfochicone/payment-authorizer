@@ -49,3 +49,18 @@ Para rodar os testes execute:
 ~~~gradle
 ./gradlew test
 ~~~
+
+## Endpoint
+
+1. http://localhost:8080/authorize
+   
+~~~json
+{
+	"accountId": "123",
+	"amount": 100.00,
+	"mcc": "5811",
+	"merchant": "PADARIA DO ZE               SAO PAULO BR"
+}
+~~~
+
+
