@@ -52,7 +52,7 @@ Para rodar os testes execute:
 
 ## Endpoint
 
-1. http://localhost:8080/authorize
+http://localhost:8080/authorize
    
 ~~~json
 {
