@@ -41,7 +41,7 @@ docker-compose up -d redis
 ./gradlew bootRun
 ~~~
 
-A aplicação estará disponível em http://localhost:8080 (ou na porta configurada).
+A aplicação estará disponível em http://localhost:8080.
 
 ## Executando os Testes
 
