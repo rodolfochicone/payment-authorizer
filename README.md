@@ -52,8 +52,11 @@ Para rodar os testes execute:
 
 ## Endpoint
 
-http://localhost:8080/authorize
-   
+URL: http://localhost:8080
+
+POST /authorize
+
+Payload
 ~~~json
 {
 	"accountId": "123",
